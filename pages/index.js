@@ -1,23 +1,23 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from "next/head";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
-    <div className="container">
+    <Layout>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Sia's test 
-        </p>
-      </main>
+      <div className="container">
+        <main>
+          <p className="description">
+            Get started by editing <code>pages/index.js</code>
+          </p>
+        </main>
+      </div>
 
-      <Footer />
-    </div>
-  )
+
+    </Layout>
+  );
 }
