@@ -1,0 +1,16 @@
+.publicationItem {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.publicationItem a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.publicationItem a:hover {
+  text-decoration: underline;
+}

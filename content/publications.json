@@ -1,0 +1,87 @@
+[
+  {
+    "authors": "C. Casola, A. Owoyemi, N. Vakirlis",
+    "title": "Degradation determinants are abundant in human noncanonical proteins",
+    "journal": "BiorXiv",
+    "year": 2024,
+    "doi": "10.1101/2024.05.01.592071"
+  },
+  {
+    "authors": "E. Caudal, V. Loegler, F. Dutreux, N. Vakirlis, E. Teyssonnière, C. Caradec, A. Friedrich, J. Hou, J. Schacherer",
+    "title": "Pan-transcriptome reveals a large accessory genome contribution to gene expression variation in yeast",
+    "journal": "Nature Genetics",
+    "volume": 56,
+    "pages": "1278–1287",
+    "year": 2024,
+    "doi": "10.1038/s41588-024-01769-9"
+  },
+  {
+    "authors": "N. Vakirlis*, O. Acar, V. Cherupally, A.-R. Carvunis*",
+    "title": "Ancestral Seaquence Reconstruction as a tool to detect and study de novo gene emergence",
+    "journal": "Genome Biology and Evolution",
+    "year": 2024,
+    "doi": "10.1093/gbe/evae151"
+  },
+  {
+    "authors": "N. Vakirlis*, A. Kupczok*",
+    "title": "Large-scale investigation of species-specific orphan genes in the human gut microbiome elucidates their evolutionary origins",
+    "journal": "Genome Research",
+    "volume": 34,
+    "pages": "888–903",
+    "year": 2024,
+    "doi": "10.1101/gr.278977.124"
+  },
+  {
+    "authors": "F.O. Gehlert, L. Nickel, N. Vakirlis, K. Hammerschmidt, H.I. Vargas Gebauer, C. Kießling, A. Kupczok, R.A. Schmitz",
+    "title": "Active in vivo translocation of the Methanosarcina mazei Gö1 Casposon",
+    "journal": "Nucleic Acids Research",
+    "articleId": "gkad474",
+    "year": 2023,
+    "doi": "10.1093/nar/gkad474"
+  },
+  {
+    "authors": "E. Tassios, C. Nikolaou*, N. Vakirlis*",
+    "title": "Intergenic regions of Saccharomycotina yeasts are enriched in potential to encode transmembrane domains",
+    "journal": "Molecular Biology and Evolution",
+    "articleId": "msad059",
+    "year": 2023,
+    "doi": "10.1093/molbev/msad059"
+  },
+  {
+    "authors": "N. Vakirlis*, Z. Vance, Kate M. Duggan, A. McLysaght*",
+    "title": "De novo birth of functional microproteins in the human lineage",
+    "journal": "Cell Reports",
+    "volume": 41,
+    "issue": 12,
+    "year": 2022,
+    "doi": "10.1016/j.celrep.2022.111808"
+  },
+  {
+    "authors": "A. Stavropoulou, E. Tassios, M. Kalyva, M. Georgoulopoulos, N. Vakirlis, I. Iliopoulos, C. Nikolaou",
+    "title": "Distinct chromosomal 'niches' in the genome of Saccharomyces cerevisiae provide the background for genomic innovation and shape the fate of gene duplicates",
+    "journal": "NAR Genomics and Bioinformatics",
+    "volume": 4,
+    "issue": 4,
+    "articleId": "lqac086",
+    "year": 2022,
+    "doi": "10.1093/nargab/lqac086"
+  },
+  {
+    "authors": "N. Vakirlis, A.-R. Carvunis, A. McLysaght",
+    "title": "Synteny-based analyses indicate that sequence divergence is not the main source of orphan genes",
+    "journal": "eLife",
+    "volume": 9,
+    "articleId": "e53500",
+    "year": 2020,
+    "doi": "10.7554/eLife.53500"
+  },
+  {
+    "authors": "N. Vakirlis, O. Acar, B. Hsu, N. Castilho Coelho, S. B. Van Oss, A. Wacholder, K. Medetgul-Ernar, R. W. Bowman, C. P. Hines, J. Iannotta, S. B. Parikh, A. McLysaght, C. J. Camacho, A. F. O’Donnell, T. Ideker, A.-R. Carvunis",
+    "title": "De novo emergence of adaptive membrane proteins from thymine-rich genomic sequences",
+    "journal": "Nature Communications",
+    "volume": 11,
+    "pages": "1–18",
+    "year": 2020,
+    "doi": "10.1038/s41467-020-14500-z"
+  }
+]
