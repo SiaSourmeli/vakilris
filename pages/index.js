@@ -1,5 +1,7 @@
-import Head from "next/head";
 import Layout from "../components/layout";
+import Head from "next/head";
+import Hero from "../components/hero";
+import About from "../components/about";
 
 export default function Home() {
   return (
@@ -8,16 +10,8 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className="container">
-        <main>
-          <p className="description">
-            Get started by editing <code>pages/index.js</code>
-          </p>
-        </main>
-      </div>
-
-
+      <Hero />
+      <About />
     </Layout>
   );
 }

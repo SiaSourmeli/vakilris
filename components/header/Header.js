@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-import styles from './Header.module.css'
-import Button from  '../burgerButton';
+import styles from "./Header.module.css";
+import Button from "../burgerButton";
 // import Theme from "../theme";
-// import Logo from "../logo";
+import Logo from "../logo";
 
 const Header = () => {
   const [scrollData, setScrollData] = useState({
@@ -52,8 +52,8 @@ const Header = () => {
       <nav className={styles.navbar}>
         <div className={styles.headerContainer}>
           <div className={styles.logoHeader}>
-            <a href= ''>
-              {/* <Logo /> */}
+            <a href="/">
+              <Logo />
             </a>
           </div>
 
@@ -64,20 +64,20 @@ const Header = () => {
           >
             <ul>
               <li>
-                <a href="about" className={styles.navLink}>
-                  About
-                </a>
-              </li>
-
-              <li>
-                <a href="team" className={styles.navLink}>
-                  Team
+                <a href="people" className={styles.navLink}>
+                  People
                 </a>
               </li>
 
               <li>
                 <a href="research" className={styles.navLink}>
                   Research
+                </a>
+              </li>
+
+              <li>
+                <a href="funding" className={styles.navLink}>
+                  Funding
                 </a>
               </li>
 

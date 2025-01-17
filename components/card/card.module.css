@@ -1,0 +1,47 @@
+/* :root {
+    --fir-font-article: "adobe-garamond-pro", "Times New Roman", Times;
+    --fir-font-header: "foco", Helvetica;
+    --fir-blue-twitter-alpha: rgba(85,172,238, 0.6);
+    --fir-color-grey: rgba(0,0,0, 0.40);
+  }
+   */
+  /* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  } */
+  
+  .firClickCircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .firImageFigure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .firImageFigure .caption, .firImageFigure figcaption {
+    padding-left: 15px;
+  }
+  
+
+  
+  /* .firImageFigure .figAuthorFigureTitle {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 2px;
+  } */
+  
+  .firImageover {
+    position: relative;
+    display: flex;
+  }
+  
