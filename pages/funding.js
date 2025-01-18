@@ -16,8 +16,8 @@ export default function Funding() {
                     <p>
                       <strong>{fund.years}</strong>
                       <br />
-                      <em>{fund.description}</em>.{" "}
                     </p>
+                    <p>{fund.description}.</p>
                   </div>
                 ))
               ) : (
@@ -25,13 +25,6 @@ export default function Funding() {
               )}
             </section>
           </div>
-        </div>
-
-        <div>
-          <img
-            src="https://ucarecdn.com/397721c5-4ddc-4313-bde3-42a569880fbe/-/preview/1000x666/-/quality/smart_retina/-/format/auto/"
-            // alt="Workshop"
-          />
         </div>
       </div>
     </Layout>

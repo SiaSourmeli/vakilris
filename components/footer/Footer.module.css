@@ -1,27 +1,28 @@
 .footerWrap {
-  background-color: var(--text-primary);
+  background-color: var(--background-secondary);
 }
 
 .footerContainer {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
-  color: var(--background);
-  max-width: 1600px;
+  /* color: var(--background); */
+  max-width: 1200px;
+  padding: 24px;
 }
 
-/* .logoFooterContainer {
+.logoFooterContainer {
   display: flex;
-} */
+  /* padding-top: 20px; */
+} 
 
-/* .logoFooter {
+ .logoFooter {
   width: 200px;
   fill: var(--background);
   flex: 0 0 auto;
-} */
+} 
 
 .footerBlock {
-  padding-top: 45px;
+  padding-top: 20px;
   list-style-type: none;
   font-size: 14px;
 }
@@ -37,7 +38,7 @@
 }
 
 .footerLink {
-  color: var(--background);
+  color: var(--text-primary);
   text-decoration: none;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .locationPin {
-  fill: var(--background);
+  /* fill: var(--background); */
   flex: 0 0 auto;
 }
 
@@ -62,11 +63,11 @@
   max-width: 1650px;
 } */
 
-.footerDivider {
+/* .footerDivider {
   padding-top: 40px;
   border-width: 0px 0px thin;
   border-style: solid;
-}
+} */
 
 /* .copyright {
   padding-top: 30px;

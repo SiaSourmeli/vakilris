@@ -1,47 +1,41 @@
-/* :root {
-    --fir-font-article: "adobe-garamond-pro", "Times New Roman", Times;
-    --fir-font-header: "foco", Helvetica;
-    --fir-blue-twitter-alpha: rgba(85,172,238, 0.6);
-    --fir-color-grey: rgba(0,0,0, 0.40);
-  }
-   */
-  /* body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  } */
-  
-  .firClickCircle {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    cursor: pointer;
-  }
-  
-  .firImageFigure {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    position: relative;
-    text-decoration: none;
-  }
-  
-  .firImageFigure .caption, .firImageFigure figcaption {
-    padding-left: 15px;
-  }
-  
+.peopleContainer {
+  justify-items: left;
+}
 
-  
-  /* .firImageFigure .figAuthorFigureTitle {
-    font-weight: 400;
-    font-size: 15px;
-    margin-top: 2px;
-  } */
-  
-  .firImageover {
-    position: relative;
-    display: flex;
-  }
-  
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.circle {
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  object-position: center;
+}
+
+.imageFigure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+  width: 250px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cardText {
+  padding-left: 25px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.CV {
+  margin-top: 30px;
+}

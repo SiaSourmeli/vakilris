@@ -1,40 +1,36 @@
 import styles from "./card.module.css";
-import people from '../../content/people.json'
+import people from "../../content/people.json";
 
 export default function Card() {
   return (
-    <div>
-      {people.map((person, index) =>
-      
-      <figure key={index} className={styles.firImageFigure}>
-        <a
-          className={styles.firImageover}
-          rel="noopener"
-          target="_blank"
-          href={person.email}
-        >
-          <img
-            className={`${styles.firAuthorImage} ${styles.firClickCircle}`}
-            src={person.photo} 
-            alt={person.name}
-          />
-         
-        </a>
+    <div className={styles.peopleContainer}>
+      {people.map((person, index) => (
+        <figure key={index} className={styles.card}>
+          <a rel="noopener" target="_blank" className={styles.imageFigure} href={person.email}>
+            <img
+              className={`${styles.image} ${styles.circle}`}
+              src={person.photo}
+              alt={person.name}
+            />
+          </a>
 
-        <figcaption>
-          <div className={styles.figAuthorFigureTitle}>{person.name}</div>
-          <div className={styles.figAuthorFigureTitle}>{person.title}</div>
-          <div className={styles.figAuthorFigureTitle}>{person.email}</div>
-          <div className={styles.figAuthorFigureTitle}>
-              <a href={person.CV} target="_blank" rel="noopener noreferrer">
-                CV
-              </a>
-            </div>
-        </figcaption>
-      </figure>
-      
-      )}
-      
+          
+            <figcaption className={styles.cardText}>
+              <div>
+                <div className={styles.name}>{person.name}</div>
+                <div>{person.title}</div>
+                <div>{person.email}</div>
+              </div>
+
+              <div className={styles.CV}>
+                <a href={person.CV} target="_blank" rel="noopener noreferrer">
+                  Link to CV
+                </a>
+              </div>
+            </figcaption>
+          
+        </figure>
+      ))}
     </div>
   );
 }

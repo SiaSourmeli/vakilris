@@ -13,14 +13,12 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--background-secondary)
+    background-color: #000;
 }
 
- @media only screen and (max-width: 800px) {    
+ @media (max-width: 800px) {    
     .navButton {
         display: block;
-        cursor: pointer;
-        padding-top: 28px;
     }
     
     /*Button animation*/

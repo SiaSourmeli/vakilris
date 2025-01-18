@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Logo from '../logo'
 
 export default function Footer() {
   return (
@@ -6,8 +7,7 @@ export default function Footer() {
       <div className={styles.footerContainer}>
         <div className={styles.logoFooterContainer}>
           <a href="/" className={styles.logoFooter} aria-label="">
-            {/* <Logo /> */}
-            Home
+            <Logo />
           </a>
         </div>
 
@@ -27,6 +27,15 @@ export default function Footer() {
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
               People
+            </a>
+          </li>
+
+          <li className={styles.listItem}>
+            <a
+              href="funding"
+              className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
+            >
+              Funding
             </a>
           </li>
 
@@ -58,7 +67,7 @@ export default function Footer() {
                 <path d="M148.5 59.2a51.5 51.5 0 0 0-51.3 51.6c0 28.5 23 51.6 51.3 51.6a51.5 51.5 0 0 0 51.3-51.6c0-28.5-23-51.6-51.3-51.6zm0 82.7a31 31 0 0 1-30.8-31.1 31 31 0 0 1 30.8-31.1 31 31 0 0 1 30.8 31.1 31 31 0 0 1-30.8 31.1z" />
               </svg>
               <a
-                // href="https://maps.app.goo.gl/U9KhNbdZDH87ZqpS8"
+                href="https://maps.app.goo.gl/YdjgXWq4uXzW97gFA"
                 target="_blank"
                 rel="noreferrer"
                 className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
@@ -75,10 +84,10 @@ export default function Footer() {
           </li>
           <li className={styles.listItem}>
             <a
-              // href="mailto:laz.papanikos@gmail.com"
+              href="mailto:n.vakirlis@pasteur.gr"
               className={`${styles.footerLink} underline-hover-effect hover-effect-reverse`}
             >
-              mail?
+             n.vakirlis@pasteur.gr
             </a>
           </li>
         </ul>
