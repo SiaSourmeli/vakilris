@@ -27,11 +27,11 @@ export default function Contact() {
               </a>
 
               <h2 className={styles.contactSub}>Address</h2>
-              <p
-                className={`${styles.contactInfo} underline-hover-effect`}
-              >
-                Hellenic Pasteur Institute 127 Vasilissis Sofias Avenue 115 21,
-                Athens, Greece
+              <p className={styles.contactInfo}>
+                We are located at the ground level of Building no. 3 at the
+                Hellenic Pasteur Institute
+                <strong>Hellenic Pasteur Institute</strong> 127 Vasilissis
+                Sofias Avenue 115 21, Athens, Greece
               </p>
 
               <div className={styles.buttonWrap}>
@@ -39,7 +39,7 @@ export default function Contact() {
                   href="https://maps.app.goo.gl/YdjgXWq4uXzW97gFA"
                   target="_blank"
                   rel="noreferrer"
-                  className="contact-button button-40"
+                  className=""
                 >
                   Directions
                 </a>

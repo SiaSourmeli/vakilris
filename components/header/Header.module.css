@@ -23,7 +23,9 @@
     position: relative;
     gap: 16px;
     padding-right: 15px;
-    margin: 15px;
+    padding-left: 15px;
+    /* margin: 15px; */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
   }
 
   .slideUp {
@@ -34,11 +36,11 @@
     flex: 1;
     position: relative;
     z-index: 1;
+
   }
   
   .logoHeader svg {
-    width: 80px;
-    /* fill: var(--text-primary); */
+    width: 150px;
   }
     
   .navMenu {

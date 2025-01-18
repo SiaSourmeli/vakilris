@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import Button from "../burgerButton";
-// import Theme from "../theme";
 import Logo from "../logo";
 
 const Header = () => {
@@ -64,14 +63,13 @@ const Header = () => {
           >
             <ul>
               <li>
-                <a href="people" className={styles.navLink}>
-                  People
-                </a>
-              </li>
-
-              <li>
                 <a href="research" className={styles.navLink}>
                   Research
+                </a>
+              </li>
+              <li>
+                <a href="people" className={styles.navLink}>
+                  People
                 </a>
               </li>
 
@@ -88,7 +86,6 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          {/* <Theme /> */}
           <Button active={menuOpen} onClick={handleMenuClick} />
         </div>
       </nav>
