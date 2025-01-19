@@ -17,15 +17,10 @@
   }
   
   .aboutText {
-   
     max-width: 600px;
-    
     margin-bottom: 10px;
   }
   
-  .imageWrap {
-    max-width: 700px;
-  }
   
   .aboutImage {
     border-radius: 24px;
