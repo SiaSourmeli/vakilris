@@ -5,23 +5,42 @@
   } */
     
   .contactSub {
-    margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 20px;
-    color: var(--text-primary);
+    /* line-height: 20px; */
+    /* color: var(--text-primary); */
   }
-  
+/*   
   .buttonWrap {
     padding-top: 24px;
-  }
+  } */
   
   .contactInfo {
-    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     padding-top: 8px;
+    margin-bottom: 20px;
     display: inline-block;
     text-decoration: none;
     color: var(--text-primary);
+  }
+
+  .mediaContainer {
+    padding-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .mediaWrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .contactLink {
+    text-decoration: none;
+    color: var( --url-color);
+  }
+
+  .addressInfo {
+    font-size: 16px;
   }

@@ -35,14 +35,6 @@ export default function About() {
             produce new ones.
           </p>
         </div>
-
-        {/* <div className={styles.imageWrap}>
-          <img
-            src="https://ucarecdn.com/397721c5-4ddc-4313-bde3-42a569880fbe/-/preview/1000x666/-/quality/smart_retina/-/format/auto/"
-            className={styles.aboutImage}
-            // alt="Workshop"
-          />
-        </div> */}
       </div>
     </div>
   );

@@ -62,6 +62,12 @@ const Header = () => {
             }`}
           >
             <ul>
+            <li>
+                <a href="/" className={styles.navLink}>
+                  About
+                </a>
+              </li>
+
               <li>
                 <a href="research" className={styles.navLink}>
                   Research
@@ -70,6 +76,12 @@ const Header = () => {
               <li>
                 <a href="people" className={styles.navLink}>
                   People
+                </a>
+              </li>
+
+              <li>
+                <a href="news" className={styles.navLink}>
+                  News
                 </a>
               </li>
 
