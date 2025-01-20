@@ -1,4 +1,4 @@
-import styles from "../styles/funding.module.css";
+import styles from "../styles/Funding.module.css";
 import Layout from "../components/layout";
 import funding from "../content/funding.json";
 
