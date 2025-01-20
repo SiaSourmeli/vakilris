@@ -1,27 +1,28 @@
 [
-    {
-      "name": "Dr. Nikolaos Vakirlis",
-      "title": "PI",
-      "email": "n.vakirlis@pasteur.gr",
-      "CV": "link to CV ",
-      "photo": "https://ucarecdn.com/b7dabd6a-ef50-4d2c-b333-6505ad0ca3bd/-/preview/969x1000/-/quality/smart_retina/-/format/auto/"
-    },
-    {
-        "name": "Emilios Tassios, MSc",
-        "title": "PhD candidate",
-        "email": "e.tassios@pasteur.gr",
-        "photo": "https://ucarecdn.com/9d0e0535-9356-4c9d-8a3b-5585549d60d9/-/preview/521x1000/-/quality/smart_retina/-/format/auto/"
-      },
-      {
-        "name": "Nikos Pyrgelis, MSc",
-        "title": "(soon to be) PhD candidate",
-        "email": "n.pyrgelis@pasteur.gr ",
-        "photo": "https://ucarecdn.com/262bbcae-44e2-4c26-bbb7-f97d5d6e8d62/-/preview/750x1000/-/quality/smart_retina/-/format/auto/"
-      },
-      {
-        "name": "Eirini Tzermpou",
-        "title": "Biomedical sciences student, The American College of Greece ",
-        "email": "e.tzermpou@acg.edu ",
-        "photo": "https://ucarecdn.com/bdb65cbe-8a3f-4f2c-b45b-17c09294cbd1/-/preview/1000x1000/-/quality/smart_retina/-/format/auto/"
-      }
+  {
+    "name": "Dr. Nikolaos Vakirlis",
+    "title": "PI",
+    "email": "n.vakirlis@pasteur.gr",
+    "CV": "https://onedrive.live.com/?authkey=%21AGkVKaxk9QxAnJw&cid=F51E1DBEA7C49A60&id=F51E1DBEA7C49A60%21760570&parId=F51E1DBEA7C49A60%21760526&o=OneUp",
+    "photo": "https://ucarecdn.com/b7dabd6a-ef50-4d2c-b333-6505ad0ca3bd/-/preview/969x1000/-/quality/smart_retina/-/format/auto/"
+  },
+  {
+    "name": "Emilios Tassios, MSc",
+    "title": "PhD candidate",
+    "email": "e.tassios@pasteur.gr",
+    "photo": "https://ucarecdn.com/29fc6c31-8389-4425-84d2-64bbadd4f09e/-/preview/534x557/-/quality/smart_retina/-/format/auto/"
+  },
+  {
+    "name": "Nikos Pyrgelis, MSc",
+    "title": "(soon to be) PhD candidate",
+    "email": "n.pyrgelis@pasteur.gr ",
+    "photo": "https://ucarecdn.com/262bbcae-44e2-4c26-bbb7-f97d5d6e8d62/-/preview/750x1000/-/quality/smart_retina/-/format/auto/"
+  },
+  {
+    "name": "Eirini Tzermpou",
+    "title": "Biomedical sciences student",
+    "location": "The American College of Greece",
+    "email": "e.tzermpou@acg.edu ",
+    "photo": "https://ucarecdn.com/bdb65cbe-8a3f-4f2c-b45b-17c09294cbd1/-/preview/1000x1000/-/quality/smart_retina/-/format/auto/"
+  }
 ]

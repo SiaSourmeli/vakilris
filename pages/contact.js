@@ -1,10 +1,10 @@
 import Layout from "../components/layout";
-import styles from "../styles/Contact.module.css";
+import styles from '../styles/contact.module.css'
 
 export default function Contact() {
   return (
     <Layout>
-      <div id="contact" className={`${styles.contactContainer} container`}>
+      <div id="contact" className="container">
         <div className={styles.contact}>
           <h1 className="header">Contact</h1>
 
@@ -12,7 +12,7 @@ export default function Contact() {
             <h2 className={styles.contactSub}>Email</h2>
             <a
               href="n.vakirlis@pasteur.gr"
-              className={`${styles.contactLink} underline-hover-effect`}
+              className={`${styles.contactInfo} emailLink underline-hover-effect`}
             >
               n.vakirlis@pasteur.gr
             </a>
@@ -20,7 +20,7 @@ export default function Contact() {
             <h2 className={styles.contactSub}>Telephone</h2>
             <a
               href="tel:210 64 78524"
-              className={`${styles.contactInfo} underline-hover-effect`}
+              className={`${styles.contactInfo} emailLink underline-hover-effect`}
             >
               +30 210 64 78524
             </a>
@@ -40,7 +40,7 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/nikolaos-vakirlis/"
                   target="_blank"
                   rel="noreferrer"
-                  className={`${styles.contactLink} underline-hover-effect hover-effect-reverse`}
+                  className="emailLink underline-hover-effect"
                 >
                   nikolaos-vakirlis
                 </a>
@@ -59,7 +59,7 @@ export default function Contact() {
                   href="https://bsky.app/profile/vakirlis.bsky.social"
                   target="_blank"
                   rel="noreferrer"
-                  className={`${styles.contactLink} underline-hover-effect hover-effect-reverse`}
+                  className="emailLink underline-hover-effect"
                 >
                   vakirlis.bsky.social
                 </a>
@@ -67,26 +67,22 @@ export default function Contact() {
             </div>
 
             <h2 className={styles.contactSub}>Address</h2>
+            <p>Hellenic Pasteur Institute</p>
             <p>
-              Hellenic Pasteur Institute
+              <a
+                href="https://maps.app.goo.gl/YdjgXWq4uXzW97gFA"
+                target="_blank"
+                rel="noreferrer"
+                className="emailLink underline-hover-effect"
+              >
+                127 Vasilissis Sofias Avenue 115 21, Athens, Greece
+              </a>
             </p>
-            <p> 127 Vasilissis Sofias Avenue 115 21, Athens, Greece</p>
 
             <p className={`${styles.contactInfo} ${styles.addressInfo}`}>
               We are located at the ground level of Building no. 3 at the
               Hellenic Pasteur Institute
             </p>
-
-            <div className={styles.buttonWrap}>
-              <a
-                href="https://maps.app.goo.gl/YdjgXWq4uXzW97gFA"
-                target="_blank"
-                rel="noreferrer"
-                className=""
-              >
-                Directions
-              </a>
-            </div>
           </div>
         </div>
       </div>

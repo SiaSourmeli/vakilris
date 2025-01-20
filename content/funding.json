@@ -1,18 +1,22 @@
 [
-    {
-      "years": "2025-2029",
-      "description": "Four-year “Sidney Altman” PhD scholarship by Fondation Santé, Emilios Tassios"
-    },
-    {
-        "years": "2024-2028",
-        "description": "Four-year G4 grant by Pasteur Institute in Paris (400,000€): “Understanding the evolutionary origins and dynamics of antimicrobial peptides as a path toward wiser applications”"
-      },
-      {
-        "years": "2022-2024",
-        "description": "Two-year independent funding by the Hellenic Foundation of Research and Innovation (120.000€). ORIGAMI: Studying the origin of genes de novo in yeast using population and functional genomics approaches"
-      },
-      {
-        "years": "2020-2022",
-        "description": "Two-year postdoctoral research fellowship by the Hellenic State Scholarship Foundation (26.000€): “Investigating de novo gene emergence across the entire budding yeast subphylum”, in affiliation with BSRC “Alexander Fleming”"
-      }
+  {
+    "years": "2025-2029",
+    "description": "Four-year “Sidney Altman” PhD scholarship by Fondation Santé, Emilios Tassios",
+    "logo": "https://ucarecdn.com/ea70dbfc-cf75-4268-b735-c3b2d1623eb2/-/preview/779x169/"
+  },
+  {
+    "years": "2024-2028",
+    "description": "Four-year G4 grant by Pasteur Institute in Paris (400,000€): “Understanding the evolutionary origins and dynamics of antimicrobial peptides as a path toward wiser applications”",
+    "logo": "https://ucarecdn.com/3b144cb8-c85e-4590-83b9-eb4039de8eed/-/preview/666x375/"
+  },
+  {
+    "years": "2022-2024",
+    "description": "Two-year independent funding by the Hellenic Foundation of Research and Innovation (120.000€). ORIGAMI: Studying the origin of genes de novo in yeast using population and functional genomics approaches",
+    "logo": "https://ucarecdn.com/59308e06-1f55-453f-97d5-e24bd2761a55/-/preview/483x165/"
+  },
+  {
+    "years": "2020-2022",
+    "description": "Two-year postdoctoral research fellowship by the Hellenic State Scholarship Foundation (26.000€): “Investigating de novo gene emergence across the entire budding yeast subphylum”, in affiliation with BSRC “Alexander Fleming”",
+    "logo": "https://ucarecdn.com/6a42714d-b178-403a-b764-e34454f5bcb0/-/preview/689x641/"
+  }
 ]

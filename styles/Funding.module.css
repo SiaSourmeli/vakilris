@@ -1,0 +1,23 @@
+.fundingItem {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.textWrap {
+  max-width: 800px;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fundersLogo {
+  max-width: 150px;
+}

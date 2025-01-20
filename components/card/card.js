@@ -6,29 +6,42 @@ export default function Card() {
     <div className={styles.peopleContainer}>
       {people.map((person, index) => (
         <figure key={index} className={styles.card}>
-          <a rel="noopener" target="_blank" className={styles.imageFigure} href={person.email}>
+          <div className={styles.imageFigure}>
             <img
               className={`${styles.image} ${styles.circle}`}
               src={person.photo}
               alt={person.name}
             />
-          </a>
+          </div>
 
-          
-            <figcaption className={styles.cardText}>
-              <div>
-                <div className={styles.name}>{person.name}</div>
-                <div>{person.title}</div>
-                <div>{person.email}</div>
+          <figcaption className={styles.cardText}>
+            <div>
+              <div className={styles.name}>
+                <strong>{person.name}</strong>
               </div>
+              <div>{person.title}</div>
+              <div>{person.location}</div>
+              <a
+                href={`mailto:${person.email}`}
+                className="emailLink underline-hover-effect"
+              >
+                {person.email}
+              </a>
+            </div>
 
+            {person.CV && (
               <div className={styles.CV}>
-                <a href={person.CV} target="_blank" rel="noopener noreferrer">
-                  Link to CV
+                <a
+                  href={person.CV}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="emailLink underline-hover-effect"
+                >
+                  CV
                 </a>
               </div>
-            </figcaption>
-          
+            )}
+          </figcaption>
         </figure>
       ))}
     </div>
