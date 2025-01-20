@@ -4,7 +4,16 @@
 
 .card {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+ 
+  gap: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .circle {
@@ -18,17 +27,23 @@
   margin: 0;
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
   text-decoration: none;
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   aspect-ratio: 1 / 1;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
 }
 
-.cardText {
-  padding-left: 25px;
+@media only screen and (min-width: 768px) {
+  .imageFigure {
+    max-width: 420px;
+  }
+}
+
+.name {
+  font-size: 24px;
 }
 
 .CV {

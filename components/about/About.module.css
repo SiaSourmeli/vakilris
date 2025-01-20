@@ -1,28 +1,22 @@
 .aboutContainer {
-    flex-direction: column;
-    display: flex;
-    gap: 50px;
-    align-items: center;
+    
+   
   }
     
   .aboutText {
-    max-width: 800px;
     margin-bottom: 10px;
   }
   
   
   .aboutImage {
     border-radius: 24px;
-    width:700px;
+  }
+
+  .imageWrap {
+    margin-top: 48px;
   }
   
-  @media only screen and (min-width: 1500px) {
-    .aboutContainer {
-      flex-direction: row-reverse;
-      justify-content: center;
-      padding-left: 0;
-      padding-right: 0;
-      gap: 50px;
-    }
+  @media only screen and (min-width: 1200px) {
+    
   }
   

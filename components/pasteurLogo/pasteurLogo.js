@@ -2,9 +2,8 @@ export default function PasteurLogo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="420"
-      height="133"
       viewBox="0 0 200 28"
+      width="400px"
     >
       <g fill="none" fillRule="evenodd">
         <path

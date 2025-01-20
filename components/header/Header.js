@@ -48,11 +48,11 @@ const Header = () => {
 
   return (
     <header className={`${styles.header} ${hideHeader ? styles.slideUp : ""}`}>
-      <nav className={styles.navbar}>
-        <div className={styles.headerContainer}>
-          <div className={styles.logoHeader}>
+      <nav>
+        <div className={`${styles.headerContainer} container`}>
+          <div>
             <a href="/">
-              <Logo />
+              <Logo width="150px" />
             </a>
           </div>
 

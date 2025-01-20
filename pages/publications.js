@@ -5,7 +5,7 @@ import publications from "../content/publications.json";
 export default function Publications() {
   return (
     <Layout>
-      <div id="publications" className="container">
+      <div id="publications">
         <h1 className="header">Publications</h1>
 
         <section>

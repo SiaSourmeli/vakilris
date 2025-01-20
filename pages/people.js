@@ -1,13 +1,18 @@
 import Layout from "../components/layout";
 import Card from "../components/card";
 import styles from "../styles/people.module.css";
+import people from "../content/people.json";
 
 export default function People() {
   return (
     <Layout>
-      <div id="people" className="container">
+      <div id="people">
         <h1 className="header">People</h1>
-        <Card />
+        <div className={styles.peopleContainer}>
+          {people.map((person, index) => (
+            <Card key={index} {...person} />
+          ))}
+        </div>
       </div>
 
       <hr className={styles.hr}></hr>

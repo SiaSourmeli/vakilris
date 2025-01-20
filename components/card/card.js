@@ -1,11 +1,8 @@
 import styles from "./card.module.css";
-import people from "../../content/people.json";
 
-export default function Card() {
+export default function Card(person) {
   return (
-    <div className={styles.peopleContainer}>
-      {people.map((person, index) => (
-        <figure key={index} className={styles.card}>
+    <figure className={styles.card}>
           <div className={styles.imageFigure}>
             <img
               className={`${styles.image} ${styles.circle}`}
@@ -43,7 +40,5 @@ export default function Card() {
             )}
           </figcaption>
         </figure>
-      ))}
-    </div>
   );
 }
