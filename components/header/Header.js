@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import styles from "./header.module.css";
+import styles from "./Header.module.css";
 import Button from "../burgerButton";
 import Logo from "../logo";
 
