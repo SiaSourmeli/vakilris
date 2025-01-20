@@ -5,6 +5,7 @@ import PasteurLogo from "../pasteurLogo";
 export default function Footer() {
   return (
     <footer className={styles.footerContainer}>
+      <div className="container">
       <div className={styles.footerWrap}>
         {/* <div className={styles.blocksWrap}>
           <ul className={styles.footerBlock}>
@@ -90,19 +91,13 @@ export default function Footer() {
         </div> */}
 
         <div className={styles.logoFooterContainer}>
-          <div className={styles.logosWrap}>
-            <a href="/" className={styles.logoFooter} aria-label="">
-              <Logo />
-            </a>
-          </div>
-
-          <div className="">
-            <a href="/" className={styles.logoFooter} aria-label="">
+            <a href="/" className={styles.logoFooter}>
               <PasteurLogo />
             </a>
-          </div>
         </div>
       </div>
+      </div>
+      
     </footer>
   );
 }

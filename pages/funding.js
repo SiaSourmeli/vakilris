@@ -5,7 +5,7 @@ import funding from "../content/funding.json";
 export default function Funding() {
   return (
     <Layout>
-      <div id="research" className="container">
+      <div id="research">
         <h1 className="header">Funding</h1>
 
         <section>

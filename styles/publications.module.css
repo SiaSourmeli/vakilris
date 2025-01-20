@@ -1,8 +1,15 @@
 .publicationItem {
   background-color: #f9f9f9;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
   border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .publicationItem {
+   
+   padding: 24px;
+  }
 }
 
 .publicationItem a {

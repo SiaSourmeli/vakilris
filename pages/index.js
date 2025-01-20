@@ -6,11 +6,6 @@ import About from "../components/about";
 export default function Home() {
   return (
     <Layout>
-      <Head>
-        <title>Evolutionary Genomics Group </title>
-        <link rel="icon" href="/favicon.svg" />
-      </Head>
-     <Hero />
       <About />
     </Layout>
   );

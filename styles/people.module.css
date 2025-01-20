@@ -5,6 +5,7 @@
     height: 1px;       
     background-color: #ccc; 
     border-radius: 5px; 
+    margin-top: 72px;
 }
 
 .joinUsContainer {
@@ -27,3 +28,7 @@
     margin-top: 10px;
   }
   
+  .peopleContainer {
+    display: grid;
+    gap: 48px;
+  }
