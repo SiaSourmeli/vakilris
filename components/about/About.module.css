@@ -1,32 +1,22 @@
-/*About*/
 .aboutContainer {
     flex-direction: column;
     display: flex;
-    gap: 64px;
+    gap: 50px;
     align-items: center;
   }
-  
-  .textWrap {
-    /* padding-top: 43px;
-      padding-bottom: 44px; */
-    color: var(--text-primary);
-  }
-  
-  .aboutHeader {
-    margin-bottom: 24px;
-  }
-  
+    
   .aboutText {
-    max-width: 600px;
+    max-width: 800px;
     margin-bottom: 10px;
   }
   
   
   .aboutImage {
     border-radius: 24px;
+    width:700px;
   }
   
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1500px) {
     .aboutContainer {
       flex-direction: row-reverse;
       justify-content: center;

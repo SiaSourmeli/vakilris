@@ -1,28 +1,13 @@
-/* .contactContainer {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 200px;
-  } */
-    
+   
   .contactSub {
     font-size: 18px;
-    font-weight: 700;
-    /* line-height: 20px; */
-    /* color: var(--text-primary); */
   }
-/*   
-  .buttonWrap {
-    padding-top: 24px;
-  } */
-  
+
   .contactInfo {
-    font-weight: 400;
-    line-height: 20px;
     padding-top: 8px;
     margin-bottom: 20px;
     display: inline-block;
-    text-decoration: none;
-    color: var(--text-primary);
+
   }
 
   .mediaContainer {
@@ -34,11 +19,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-
-  .contactLink {
-    text-decoration: none;
-    color: var( --url-color);
   }
 
   .addressInfo {

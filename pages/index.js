@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Evolutionary Genomics Group </title>
+        <link rel="icon" href="/favicon.svg" />
       </Head>
-      <Hero />
+     <Hero />
       <About />
     </Layout>
   );

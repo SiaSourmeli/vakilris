@@ -20,13 +20,25 @@ export default function People() {
         <p>
           Interested candidates should get in contact with Dr. Vakirlis via
           email at{" "}
-          <a href="mailto:n.vakirlis@pasteur.gr">n.vakirlis@pasteur.gr</a> and{" "}
-          <a href="mailto:vakirlisnikos@gmail.com">vakirlisnikos@gmail.com</a>{" "}
+          <a
+            href="mailto:n.vakirlis@pasteur.gr"
+            className="emailLink underline-hover-effect"
+          >
+            n.vakirlis@pasteur.gr
+          </a>{" "}
+          and{" "}
+          <a
+            href="mailto:vakirlisnikos@gmail.com"
+            className="emailLink underline-hover-effect"
+          >
+            vakirlisnikos@gmail.com
+          </a>{" "}
           or on Bluesky (
           <a
             href="https://bsky.app/profile/vakirlis.bsky.social"
             target="_blank"
             rel="noopener noreferrer"
+            className="emailLink underline-hover-effect"
           >
             @vakirlis.bsky.social
           </a>

@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import styles from "./Header.module.css";
+import styles from "./header.module.css";
 import Button from "../burgerButton";
 import Logo from "../logo";
 
@@ -73,6 +73,13 @@ const Header = () => {
                   Research
                 </a>
               </li>
+
+              <li>
+                <a href="publications" className={styles.navLink}>
+                Publications
+                </a>
+              </li>
+      
               <li>
                 <a href="people" className={styles.navLink}>
                   People

@@ -1,15 +1,13 @@
-import styles from "./Hero.module.css";
+import styles from "./hero.module.css";
+import Logo from "../logo";
 
-const Hero = () => {
+export default function Hero() {
   return (
-    <div id="">
-      <img
-        src="https://ucarecdn.com/74129383-8ae0-4d66-b3d7-e3f03b290d0b/egggroupphoto.jpg"
-        className={styles.heroImage}
-        alt="workshop"
-      ></img>
+    <div className={styles.heroContainer}>
+      <Logo />
+      <div className={styles.heroText}>
+        <p>@ Hellenic Pasteur Institute</p>
+      </div>
     </div>
   );
 };
-
-export default Hero;
