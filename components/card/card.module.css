@@ -5,7 +5,6 @@
 .card {
   display: flex;
   flex-direction: column;
- 
   gap: 24px;
 }
 
@@ -23,6 +22,12 @@
   object-position: center;
 }
 
+@media only screen and (max-width: 768px) { 
+  .cardText {
+  padding-left: 24px;
+}
+}
+
 .imageFigure {
   margin: 0;
   display: flex;
@@ -38,12 +43,12 @@
 
 @media only screen and (min-width: 768px) {
   .imageFigure {
-    max-width: 420px;
+    max-width: 200px;
   }
 }
 
 .name {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .CV {
