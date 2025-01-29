@@ -16,39 +16,45 @@ export default function People() {
       </div>
 
       <hr className={styles.hr}></hr>
+
       <section className={styles.joinUsContainer}>
-        <h2>Your face here?</h2>
-        <p>
-          We are always seeking motivated candidates to apply for PhD and
-          postdoctoral fellowships.
-        </p>
-        <p>
-          Interested candidates should get in contact with Dr. Vakirlis via
-          email at{" "}
-          <a
-            href="mailto:n.vakirlis@pasteur.gr"
-            className="emailLink underline-hover-effect"
-          >
-            n.vakirlis@pasteur.gr
-          </a>{" "}
-          and{" "}
-          <a
-            href="mailto:vakirlisnikos@gmail.com"
-            className="emailLink underline-hover-effect"
-          >
-            vakirlisnikos@gmail.com
-          </a>{" "}
-          or on Bluesky (
-          <a
-            href="https://bsky.app/profile/vakirlis.bsky.social"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="emailLink underline-hover-effect"
-          >
-            @vakirlis.bsky.social
-          </a>
-          ).
-        </p>
+        <Card
+          photo={
+            "https://ucarecdn.com/dd389d82-7fb6-4fce-9d26-23426b1de034/-/preview/1000x1000/-/quality/smart_retina/-/format/auto/"
+          }
+          name={"Your face here?"}
+          title={
+            "We are always seeking motivated candidates to apply for PhD and postdoctoral fellowships."
+          }
+        >
+          <div>
+            Interested candidates should get in contact with Dr. Vakirlis via
+            email at{" "}
+            <a
+              href="mailto:n.vakirlis@pasteur.gr"
+              className="emailLink underline-hover-effect"
+            >
+              n.vakirlis@pasteur.gr
+            </a>{" "}
+            and{" "}
+            <a
+              href="mailto:vakirlisnikos@gmail.com"
+              className="emailLink underline-hover-effect"
+            >
+              vakirlisnikos@gmail.com
+            </a>{" "}
+            or on Bluesky (
+            <a
+              href="https://bsky.app/profile/vakirlis.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="emailLink underline-hover-effect"
+            >
+              @vakirlis.bsky.social
+            </a>
+            ).
+          </div>
+        </Card>
       </section>
     </Layout>
   );

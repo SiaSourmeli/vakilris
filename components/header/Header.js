@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import Button from "../burgerButton";
 import Logo from "../logo";
+import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [scrollData, setScrollData] = useState({
@@ -51,9 +53,15 @@ const Header = () => {
       <nav>
         <div className={`${styles.headerContainer} container`}>
           <div>
-            <a href="/">
-              <Logo width="150px" />
-            </a>
+            <Link href="/">
+              {/* <Logo width="150px" /> */}
+              <Image
+                src="https://ucarecdn.com/7b26b6b4-2214-4359-9843-b3571d79eff8/-/preview/999x334/"
+                alt="logo"
+                width={150}
+                height={50}
+              />
+            </Link>
           </div>
 
           <div
@@ -62,7 +70,7 @@ const Header = () => {
             }`}
           >
             <ul>
-            <li>
+              <li>
                 <a href="/" className={styles.navLink}>
                   About
                 </a>
@@ -76,10 +84,10 @@ const Header = () => {
 
               <li>
                 <a href="publications" className={styles.navLink}>
-                Publications
+                  Publications
                 </a>
               </li>
-      
+
               <li>
                 <a href="people" className={styles.navLink}>
                   People
