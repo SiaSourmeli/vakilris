@@ -6,16 +6,18 @@ export default function Card({
   title,
   location,
   image,
-  CV,
+  cv,
   children,
 }) {
+  console.log('cv',cv)
+
   return (
     <figure className={styles.card}>
-      {image?.fields?.file?.url && (
+      {image && (
         <div className={styles.imageFigure}>
           <img
             className={`${styles.image} ${styles.circle}`}
-            src={`https:${image.fields.file.url}`}
+            src={`https:${image.url}`}
             alt={name}
           />
         </div>
@@ -41,10 +43,10 @@ export default function Card({
             </div>
           )}
 
-          {CV?.fields?.file?.url && (
+          {cv && (
             <div className={styles.CV}>
               <a
-                href={`https:${CV.fields.file.url}`}
+                href={`https:${cv.url}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="emailLink underline-hover-effect"
