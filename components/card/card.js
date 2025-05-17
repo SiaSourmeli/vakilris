@@ -1,54 +1,60 @@
 import styles from "./card.module.css";
 
-export default function Card(person) {
+export default function Card({
+  name,
+  email,
+  title,
+  location,
+  image,
+  CV,
+  children,
+}) {
   return (
     <figure className={styles.card}>
-      <div className={styles.imageFigure}>
-        <img
-          className={`${styles.image} ${styles.circle}`}
-          src={person.photo}
-          alt={person.name}
-        />
-      </div>
+      {image?.fields?.file?.url && (
+        <div className={styles.imageFigure}>
+          <img
+            className={`${styles.image} ${styles.circle}`}
+            src={`https:${image.fields.file.url}`}
+            alt={name}
+          />
+        </div>
+      )}
 
       <figcaption className={styles.cardText}>
         <div>
           <div className={styles.name}>
-            <strong>{person.name}</strong>
+            <strong>{name}</strong>
           </div>
-          <div>{person.title}</div>
+          <div>{title}</div>
 
-          {person.location && (
-            <div>{person.location}</div>
-          )}
-          
-          {person.email && (
+          {location && <div>{location}</div>}
+
+          {email && (
             <div>
               <a
-                href={`mailto:${person.email}`}
+                href={`mailto:${email}`}
                 className="emailLink underline-hover-effect"
               >
-                {person.email}
+                {email}
               </a>
             </div>
           )}
-           
-        
 
-        {person.CV && (
-          <div className={styles.CV}>
-            <a
-              href={person.CV}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="emailLink underline-hover-effect"
-            >
-              CV
-            </a>
-          </div>
-        )}
+          {CV?.fields?.file?.url && (
+            <div className={styles.CV}>
+              <a
+                href={`https:${CV.fields.file.url}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="emailLink underline-hover-effect"
+              >
+                CV
+              </a>
+            </div>
+          )}
 
-        {person.children}
+          {children}
         </div>
       </figcaption>
     </figure>
