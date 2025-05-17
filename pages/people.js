@@ -1,9 +1,7 @@
 import Layout from "../components/layout";
 import Card from "../components/card";
 import styles from "../styles/people.module.css";
-// import people from "../content/people.json";
-import { getEntries } from "../library/contentful";
-
+import people from "../content/people.json";
 
 export async function getStaticProps() {
  const people = await getEntries("people", {
@@ -16,15 +14,14 @@ export async function getStaticProps() {
   };
 }
 
-
 export default function People({people}) {
   return (
     <Layout>
       <div id="people">
         <h1 className="header">People</h1>
         <div className={styles.peopleContainer}>
-          {people.map((person) => (
-            <Card key={person.sys.id} {...person.fields} />
+          {people.map((person, index) => (
+            <Card key={index} {...person} />
           ))}
         </div>
       </div>
