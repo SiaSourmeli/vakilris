@@ -12,7 +12,6 @@ export async function getStaticProps() {
     props: {
       news,
     },
-    revalidate: 60, // should i use that???
   };
 }
 
