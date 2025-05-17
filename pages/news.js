@@ -6,13 +6,12 @@ import NewsImage from "../components/news-image";
 
 export async function getStaticProps() {
   const news = await getEntries("news", {
-    order: "-fields.date", // newest first
+    order: "-fields.date", 
   });
   return {
     props: {
       news,
     },
-    revalidate: 60, // should i use that???
   };
 }
 
