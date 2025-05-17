@@ -1,22 +1,33 @@
 import Layout from "../components/layout";
 import Card from "../components/card";
 import styles from "../styles/people.module.css";
-import people from "../content/people.json";
+import { getEntries } from "../library/contentful";
 
-export default function People() {
+
+export async function getStaticProps() {
+ const people = await getEntries("people", {
+    order: 'fields.orderNo',
+  });
+  return {
+    props: {
+      people,
+    },
+  };
+}
+
+
+export default function People({people}) {
   return (
     <Layout>
       <div id="people">
         <h1 className="header">People</h1>
         <div className={styles.peopleContainer}>
-          {people.map((person, index) => (
-            <Card key={index} {...person} />
+          {people.map((person) => (
+            <Card key={person.sys.id} {...person.fields} />
           ))}
         </div>
       </div>
-
       <hr className={styles.hr}></hr>
-
       <section className={styles.joinUsContainer}>
         <Card
           photo={
