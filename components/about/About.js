@@ -31,7 +31,7 @@ export default function About() {
         </div>
         <div className={styles.imageWrap}>
           <img
-            src="https://ucarecdn.com/74129383-8ae0-4d66-b3d7-e3f03b290d0b/egggroupphoto.jpg"
+            src="https://ucarecdn.com/5ec5514e-3a67-4938-8520-fc96acbeb867/2NEWegggroupphoto.jpg"           
             className={styles.aboutImage}
             alt="team"
           />
