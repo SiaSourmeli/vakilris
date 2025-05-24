@@ -25,7 +25,7 @@ export default function News({ news }) {
         <section>
           {news.map((entry) => (
             <div key={entry.sys.id} className={styles.card}>
-              <div className={styles.content}>
+          
                 <h3 className={styles.date}>
                   {new Date(entry.fields.date).toLocaleDateString("en-US", {
                     year: "numeric",
@@ -34,11 +34,13 @@ export default function News({ news }) {
                   })}
                 </h3>
                 <h2 className={styles.title}>{entry.fields.title}</h2>
-                <NewsImage entry={entry} />
-                <div className={styles.text}>
-                  {documentToReactComponents(entry.fields.text)}
+                <div className={styles.content}>
+                  <NewsImage entry={entry} />
+                  <div className={styles.text}>
+                    {documentToReactComponents(entry.fields.text)}
+                  </div>
                 </div>
-              </div>
+     
             </div>
           ))}
         </section>
@@ -47,7 +49,7 @@ export default function News({ news }) {
         <section>
           {news.map((entry) => (
             <div key={entry.sys.id} className={styles.card}>
-              <div className={styles.content}>
+            
                 <NewsImage entry={entry} />
                 <h2 className={styles.title}>{entry.fields.title}</h2>
                 <h3 className={styles.date}>
@@ -60,7 +62,6 @@ export default function News({ news }) {
                 <div className={styles.text}>
                   {documentToReactComponents(entry.fields.text)}
                 </div>
-              </div>
             </div>
           ))}
         </section>
