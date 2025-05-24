@@ -21,7 +21,8 @@ export default function News({ news }) {
       <div id="news">
         <h1 className="header">News and other lab activities </h1>
 
-        <section >
+        {/* //option 1 */}
+        <section>
           {news.map((entry) => (
             <div key={entry.sys.id} className={styles.card}>
               <div className={styles.content}>
@@ -42,7 +43,8 @@ export default function News({ news }) {
           ))}
         </section>
 
-        <section >
+        {/* //option2 */}
+        <section>
           {news.map((entry) => (
             <div key={entry.sys.id} className={styles.card}>
               <div className={styles.content}>
