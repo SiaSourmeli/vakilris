@@ -27,7 +27,7 @@ export default function People({ people }) {
               email={person.fields.email}
               title={person.fields.title}
               location={person.fields.location}
-              image={person.fields.image.fields.file}
+              image={person.fields.image?.fields.file}
               cv={person.fields.cv?.fields.file}
             />
           ))}
@@ -36,9 +36,9 @@ export default function People({ people }) {
       <hr className={styles.hr}></hr>
       <section className={styles.joinUsContainer}>
         <Card
-          photo={
-            "https://ucarecdn.com/dd389d82-7fb6-4fce-9d26-23426b1de034/-/preview/1000x1000/-/quality/smart_retina/-/format/auto/"
-          }
+          image={{
+            url: "//ucarecdn.com/dd389d82-7fb6-4fce-9d26-23426b1de034/-/preview/1000x1000/-/quality/smart_retina/-/format/auto/",
+          }}
           name={"Your face here?"}
           title={
             "We are always seeking motivated candidates to apply for PhD and postdoctoral fellowships."

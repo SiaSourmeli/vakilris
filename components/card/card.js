@@ -9,8 +9,6 @@ export default function Card({
   cv,
   children,
 }) {
-  console.log('cv',cv)
-
   return (
     <figure className={styles.card}>
       {image && (
