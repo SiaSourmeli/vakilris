@@ -22,7 +22,7 @@ export default function News({ news }) {
         <h1 className="header">News and other lab activities </h1>
 
         <section>
-          {!news.entry && <p>Content coming soon...</p>}
+        {(!news || news.length === 0) && <p>Content coming soon...</p>}
 
           {news.map((entry) => (
             <div key={entry.sys.id} className={styles.card}>
