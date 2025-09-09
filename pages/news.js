@@ -35,7 +35,10 @@ export default function News({ news }) {
               </h3>
               <h2 className={styles.title}>{entry.fields.title}</h2>
               <div className={styles.content}>
-                <NewsImage entry={entry} />
+                {entry.fields.newsImage && 
+                  <NewsImage entry={entry} />
+                }
+                
                 <div className={styles.text}>
                   {documentToReactComponents(entry.fields.text)}
                 </div>
