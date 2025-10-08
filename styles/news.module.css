@@ -43,6 +43,7 @@
   width: auto;
   height: 95%;
   object-fit: contain;
+  max-height: 600px;
 }
 
 /* 👇 Landscape image — default styling can apply */
@@ -50,6 +51,7 @@
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  max-height: 600px;
 }
 
 @media only screen and (max-width: 1024px) { 
