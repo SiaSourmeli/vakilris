@@ -15,7 +15,20 @@ export default function Publications({ publications }) {
   return (
     <Layout>
       <div id="publications">
-        <h1 className="header">Publications</h1>
+        <div className="header">
+          <h1>Publications</h1>
+          <div className={styles.subTitle}>
+            <h4 style={{ fontWeight: 600 }}>Full Publications list available on</h4>
+            <a
+              href="https://scholar.google.gr/citations?user=72rh-ZsAAAAJ&hl=en&fbclid=IwY2xjawOCaRlleHRuA2FlbQIxMABicmlkETFESnBhZUNUVE4wUkVkM3hJc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHt81G8FWMiTg2uRIuumbL_uWnLrP3JYniqAchCKvPlyld382jgnsMVyA_I2i_aem_fwQqXrGalZRlq8ANqk7JAA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.link}
+            >
+              Google Scholar
+            </a>
+          </div>
+        </div>
 
         <section>
           {(!publications || publications.length === 0) && (
@@ -30,7 +43,8 @@ export default function Publications({ publications }) {
                   <em>{pub.fields.title}</em>.<br></br>
                   {pub.fields.journal}
                   {pub.fields.volume && ` ${pub.fields.volume}`}
-                  {pub.fields.pages && `, ${pub.fields.pages}`} ({pub.fields.year}).
+                  {pub.fields.pages && `, ${pub.fields.pages}`} (
+                  {pub.fields.year}).
                 </p>
                 {pub.fields.doi && (
                   <div>

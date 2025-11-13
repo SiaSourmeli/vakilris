@@ -9,6 +9,16 @@
   .publicationItem {
    padding: 24px;
   }
+
+.subTitle {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: var(--url-color);
+  padding-left: 6px;
+}
 }
 
 .publicationItem a {
@@ -19,3 +29,4 @@
 .publicationItem a:hover {
   text-decoration: underline;
 }
+
