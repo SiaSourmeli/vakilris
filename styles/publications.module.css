@@ -10,15 +10,14 @@
    padding: 24px;
   }
 
-.subTitle {
-  display: flex;
-  align-items: center;
-}
+  .subTitle {
+    display: flex;
+    align-items: center;
+  }
 
-.link {
-  color: var(--url-color);
-  padding-left: 6px;
-}
+  .link {
+    padding-left: 6px;
+  }
 }
 
 .publicationItem a {
@@ -28,5 +27,10 @@
 
 .publicationItem a:hover {
   text-decoration: underline;
+}
+
+.link {
+  color: var(--url-color);
+  text-decoration: none;
 }
 
