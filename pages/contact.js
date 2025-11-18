@@ -19,10 +19,10 @@ export default function Contact() {
 
             <h2 className={styles.contactSub}>Telephone</h2>
             <a
-              href="tel:210 64 78524"
+              href="tel:2144047524"
               className={`${styles.contactInfo} emailLink underline-hover-effect`}
             >
-              +30 210 64 78524
+            +30 214 404 7524
             </a>
 
             <h2 className={styles.contactSub}>Social</h2>
