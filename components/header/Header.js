@@ -33,7 +33,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [menuOpen]);
 
   useEffect(() => {
     if (scrollData.y > 250 && scrollData.y - scrollData.lastY > 0) {
@@ -71,45 +71,39 @@ const Header = () => {
           >
             <ul>
               <li>
-                <a href="/" className={styles.navLink}>
+                <Link href="/" className={styles.navLink}>
                   About
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a href="research" className={styles.navLink}>
+                <Link href="/research" className={styles.navLink}>
                   Research
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a href="publications" className={styles.navLink}>
+                <Link href="/publications" className={styles.navLink}>
                   Publications
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a href="people" className={styles.navLink}>
+                <Link href="/people" className={styles.navLink}>
                   People
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a href="news" className={styles.navLink}>
+                <Link href="/news" className={styles.navLink}>
                   News
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a href="funding" className={styles.navLink}>
+                <Link href="/funding" className={styles.navLink}>
                   Funding
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a href="contact" className={styles.navLink}>
+                <Link href="/contact" className={styles.navLink}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
