@@ -12,6 +12,7 @@ export default function Hero() {
         alt="logo"
         width={1000}
         height={500}
+        priority
       />
       <div className={styles.heroText}>
         <p>@ Hellenic Pasteur Institute</p>
