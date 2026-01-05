@@ -8,7 +8,6 @@ export default function NewsImage({ entry }) {
     entry.fields.newsImage.fields.file.details.image.height >
     entry.fields.newsImage.fields.file.details.image.width;
 
-    console.log("isPortrait", isPortrait)
   return (
     <div
       className={`${styles.imageWrapper} ${
