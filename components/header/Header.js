@@ -48,6 +48,10 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className={`${styles.header} ${hideHeader ? styles.slideUp : ""}`}>
       <nav>
@@ -71,37 +75,65 @@ const Header = () => {
           >
             <ul>
               <li>
-                <Link href="/" className={styles.navLink}>
+                <Link
+                  href="/"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/research" className={styles.navLink}>
+                <Link
+                  href="/research"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   Research
                 </Link>
               </li>
               <li>
-                <Link href="/publications" className={styles.navLink}>
+                <Link
+                  href="/publications"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   Publications
                 </Link>
               </li>
               <li>
-                <Link href="/people" className={styles.navLink}>
+                <Link
+                  href="/people"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   People
                 </Link>
               </li>
               <li>
-                <Link href="/news" className={styles.navLink}>
+                <Link
+                  href="/news"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   News
                 </Link>
               </li>
               <li>
-                <Link href="/funding" className={styles.navLink}>
+                <Link
+                  href="/funding"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   Funding
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className={styles.navLink}>
+                <Link
+                  href="/contact"
+                  className={styles.navLink}
+                  onClick={handleLinkClick}
+                >
                   Contact
                 </Link>
               </li>
