@@ -12,15 +12,15 @@ export default function About() {
             The Evolutionary Genomics Group (EGG), led by Dr. Nikolaos Vakirlis,
             was established in 2024 at the Hellenic Pasteur Institute, part of
             the international Pasteur Network. It is located at the historical
-            Pasteur campus near Athens city center.
+            Pasteur campus near Athens’ city center.
           </p>
           <p className={styles.aboutText}>
-            Our group’s interests center on the evolutionary origins of novel
-            genes and the proteins they encode at the level of sequence,
-            structure and function. Little is known about novel genes, also
-            known as “orphans” yet they are found in the genome of nearly every
-            species known to science. This makes their study one of the most
-            exciting research areas in evolution and genomics. We are
+            Our group’s interests center on the evolutionary origins of novelty
+            in genes and the proteins they encode at the level of sequence,
+            structure and function. Little is known about evolutionarily novel
+            genes, also known as “orphans”, yet they are found in the genome of
+            nearly every species known to science. This makes their study one of
+            the most exciting research areas in evolution and genomics. We are
             particularly interested in novelty with respect to antimicrobial
             peptides, natural weapons of organisms against pathogens with strong
             potential as alternative antibiotic drugs. As a (mostly)
@@ -56,6 +56,7 @@ export default function About() {
             className={styles.aboutImage}
             alt="team"
           />
+          <p className={styles.imageCaption}>The EGG in April of 2026</p>
         </div>
       </div>
     </div>
