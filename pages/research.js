@@ -174,7 +174,7 @@ export default function Research() {
           and why do some ultimately evolve into longer full-blown proteins
           while others do not.
         </p>
-        <figure className={styles.figure}>
+        {/* <figure className={styles.figure}>
           <img
             src="https://ucarecdn.com/8c7b9260-786f-42ec-8831-e95876dfe85d/research_pic_4jpg.png"
             alt="De novo gene birth and transmembrane domain emergence in S. cerevisiae"
@@ -189,7 +189,7 @@ export default function Research() {
             previously unknown novel sORFs that are under selection, and hence
             functional. ​
           </figcaption>
-        </figure>
+        </figure> */}
       </div>
     </Layout>
   );
